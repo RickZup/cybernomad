@@ -66,6 +66,9 @@ As principais tecnologias e informações do arquivo `pom.xml` incluem:
 
 O arquivo `pom.xml` do projeto contém as dependências específicas e configurações do Maven para as bibliotecas usadas.
 
+**Documentação Swagger**: A aplicação foi documentada com Swagger para facilitar a compreensão e teste das APIs. Você pode acessar a documentação em: http://localhost:8080/swagger-ui.html.
+
+
 ## 🤝 Contribuição
 
 Estamos abertos a sugestões e colaborações da comunidade! Se deseja colaborar, sinta-se à vontade para enviar pull requests e relatar problemas.
