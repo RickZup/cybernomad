@@ -16,13 +16,12 @@ import java.util.List;
 @Getter
 @Setter
 public class HubModel {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "hub_id")
     private Long id;
     private String name;
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne
     private AdressModel adressModel;
     private String observation;
     private String openingHours;
